@@ -12,7 +12,7 @@ from sklearn.metrics import confusion_matrix
 import seaborn as sns
 import sklearn
 import os
-print(os.listdir("./cell_images/"))
+print(os.listdir("/kaggle/input/cell-images-for-detecting-malaria/cell_images"))
 import PIL
 from tensorflow.keras.models import Sequential
 
